@@ -10,13 +10,13 @@ import {
   type EfficiencyScore,
 } from '../utils/compute';
 
-/**
+/**udueiydiuwydkwy
  * Professional KPI Dashboard Component
  * Displays real-time metrics for budget allocation and carbon reduction performance
  */
 const KPIs: React.FC = () => {
   const { state } = useBudget();
- 
+     
   // Memoize expensive portfolio calculations
   const portfolioMetrics = useMemo(() => {
     try {
