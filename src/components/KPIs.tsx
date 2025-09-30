@@ -16,12 +16,12 @@ import {
  */
 const KPIs: React.FC = () => {
   const { state } = useBudget();
-
+ 
   // Memoize expensive portfolio calculations
   const portfolioMetrics = useMemo(() => {
     try {
       return computePortfolioMetrics(
-        interventionsCatalog,
+      interventionsCatalog,
         state.allocations,
         state.totalBudget,
         state.targetT
